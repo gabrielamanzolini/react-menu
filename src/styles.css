@@ -1,0 +1,59 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+.pink {
+  color: pink;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.topBar {
+  width: 100%;
+  display: inline-block;
+}
+
+.topBar li {
+  display: inline-flex;
+  padding-right: 5%;
+}
+
+.title {
+  text-align: center;
+}
+
+.menuDropdown {
+  display: none;
+}
+
+.topBar li:hover .menuDropdown {
+  display: block;
+  position: absolute;
+  top: 8%;
+  float: left;
+  margin-left: 0;
+}
+
+.menuDropdown li {
+  display: block;
+  position: relative;
+  background-color: pink;
+  width: 40px;
+}
+
+.minicart {
+  content: url("https://uploads.codesandbox.io/uploads/user/f33d3cc2-72dd-4052-a3ec-6818ab1b1a3f/D2e6-shopping-cart.png");
+  display: block;
+}
+
+.cart-dropdown {
+  display: block;
+}
+
+.cart-list .img {
+  content: url("https://uploads.codesandbox.io/uploads/user/f33d3cc2-72dd-4052-a3ec-6818ab1b1a3f/cTam-220px-Square_Up_-_cover.png");
+}
